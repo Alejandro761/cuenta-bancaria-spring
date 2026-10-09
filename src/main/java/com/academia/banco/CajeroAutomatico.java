@@ -32,6 +32,7 @@ public class CajeroAutomatico {
     private final Notificador notificador;
     private final Clock reloj;
 
+    // MP-1: hoy sus piezas son reales
     public CajeroAutomatico(RepositorioCuentas repositorio, ServicioAntifraude antifraude,
                             Notificador notificador, Clock reloj) {
         this.repositorio = repositorio;
